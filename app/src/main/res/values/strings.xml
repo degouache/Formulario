@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ej03 Beatriz Criado</string>
+    <string name="eat">Eat</string>
+    <string name="them">Them</string>
+    <string name="all">All</string>
+    <string name="imagen_de_tarta">Imagen de tarta</string>
+    <string name="registration">Registration</string>
+    <string name="introduceTuApellido">Surname</string>
+    <string name="introduceTuEdad">Age</string>
+    <string name="introduceTuNombre">Name</string>
+    <string name="introduce_tu_apellido">Surname</string>
+    <string name="introduce_tu_edad">Age</string>
+    <string name="otro">Other</string>
+    <string name="hombre">Man</string>
+    <string name="mujer">Woman</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="did_you_ever_participate_in_another_contest_before">Did you ever participate in another contest before</string>
+    <string name="name_of_the_contest">Name of the contest</string>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/eat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/eat"
+            android:textAllCaps="true"
+            android:textColor="@color/rosa_pastel"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eat"
+            android:layout_marginStart="20dp"
+            android:text="@string/them"
+            android:textAllCaps="true"
+            android:textColor="@color/rosa_pastel"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/all1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/them"
+            android:layout_marginStart="20dp"
+            android:text="@string/all"
+            android:textAllCaps="true"
+            android:textColor="@color/rosa_pastel"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <ImageView
+            android:id="@+id/cake"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@+id/them"
+            android:contentDescription="@string/imagen_de_tarta"
+            android:src="@drawable/tarta" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/registration"
+        android:textColor="@color/rosa_pastel_oscuro"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@color/neutro"
+        android:gravity="center_horizontal"
+        android:hint="@string/introduceTuNombre"
+        android:inputType="text"
+        android:textColor="@color/rosa_pastel_oscuro"
+        android:textColorHint="@color/neutro"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@color/neutro"
+        android:gravity="center_horizontal"
+        android:hint="@string/introduce_tu_apellido"
+        android:inputType="text"
+        android:textColor="@color/rosa_pastel_oscuro"
+        android:textColorHint="@color/neutro"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@color/neutro"
+        android:gravity="center_horizontal"
+        android:hint="@string/introduce_tu_edad"
+        android:inputType="numberDecimal"
+        android:textColor="@color/rosa_pastel_oscuro"
+        android:textColorHint="@color/neutro"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/mujer"
+            android:textColor="@color/rosa_pastel_oscuro" />
+
+        <RadioButton
+            android:id="@+id/man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/hombre"
+            android:textColor="@color/rosa_pastel_oscuro" />
+
+        <RadioButton
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/otro"
+            android:textColor="@color/rosa_pastel_oscuro" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/did_you_ever_participate_in_another_contest_before"
+        android:textColor="@color/rosa_pastel_oscuro" />
+
+    <EditText
+        android:id="@+id/contestName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="@color/seleccion_oscuro"
+        android:gravity="center_horizontal"
+        android:hint="@string/name_of_the_contest"
+        android:inputType="text"
+        android:textColor="@color/rosa_pastel_oscuro"
+        android:textColorHint="@color/neutro"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:typeface="normal"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/rosa_pastel"
+        android:gravity="center|center_vertical"
+        android:onClick="register"
+        android:text="@string/register"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+</ScrollView>
